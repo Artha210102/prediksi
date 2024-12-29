@@ -4,6 +4,8 @@ import pickle
 import streamlit as st
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
+pip install scikit-learn
+
 
 # Load the dataset
 df = pd.read_csv('/content/kc_house_data.csv', usecols=['bedrooms', 'bathrooms', 'sqft_living', 'grade', 'price', 'yr_built'])
